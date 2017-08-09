@@ -30,5 +30,10 @@
 #define func_overload __attribute__((overloadable))
 #endif
 
+/// 弱符号修饰
+#ifndef signal_weak
+#define signal_weak __attribute__((weak))
+#endif
+
 
 #endif /* LXDMacros_h */
