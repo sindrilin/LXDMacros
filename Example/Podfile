@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LXDMacros_Example' do
+  pod 'LXDMacros', :path => '../'
+
+  target 'LXDMacros_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
