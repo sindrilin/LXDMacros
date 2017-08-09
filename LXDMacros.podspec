@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LXDMacros"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Some common macros and function"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ TODO: Add long descriptiong of the pod here.
   s.source_files  = "LXDMacros/Classes", "LXDMacros/Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
