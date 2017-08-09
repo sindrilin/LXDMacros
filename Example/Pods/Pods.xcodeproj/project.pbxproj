@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A27D0A01F3AD86F002FAC2E /* LXDFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A27D09B1F3AAA4C002FAC2E /* LXDFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A27D0A11F3AD86F002FAC2E /* LXDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A27D09A1F3AA9DD002FAC2E /* LXDMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E41A9E40F4690E96269719B7D414428 /* Pods-LXDMacros_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A1D4B4C3F2C1E3E887C4394AA8FD32 /* Pods-LXDMacros_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8782B882D59B72CE39BC5E2CA9072D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9F924176DCDB88ACD8AC63E0916CFE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -256,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B2D95D35A4B90B9DFD9438DF235DE5 /* LXDMacros-umbrella.h in Headers */,
+				0A27D0A01F3AD86F002FAC2E /* LXDFunction.h in Headers */,
+				0A27D0A11F3AD86F002FAC2E /* LXDMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
