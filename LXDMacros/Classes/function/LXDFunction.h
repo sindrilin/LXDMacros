@@ -1,13 +1,11 @@
 //
-//  LXDFunction.h
+//  LXDFunctionn.h
 //  Pods
 //
 //  Created by didi on 2017/8/9.
 //
 //
 
-#ifndef LXDFunction_h
-#define LXDFunction_h
 #import "LXDMacros.h"
 
 
@@ -48,6 +46,3 @@ func_overload func_inline void __remove_notification(id observer) {
 func_overload func_inline void __remove_notification(id observer, NSString *notificationName) {
     [[NSNotificationCenter defaultCenter] removeObserver: observer name: notificationName object: nil];
 }
-
-
-#endif /* LXDFunction_h */

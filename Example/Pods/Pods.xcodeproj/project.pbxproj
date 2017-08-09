@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A27D0A01F3AD86F002FAC2E /* LXDFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A27D09B1F3AAA4C002FAC2E /* LXDFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A27D0A11F3AD86F002FAC2E /* LXDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A27D09A1F3AA9DD002FAC2E /* LXDMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A27D0A41F3AE3DF002FAC2E /* LXDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A27D0A21F3AE3DF002FAC2E /* LXDMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A27D0A51F3AE3DF002FAC2E /* LXDMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A27D0A31F3AE3DF002FAC2E /* LXDMacros.m */; };
+		0A27D0A81F3AE414002FAC2E /* LXDFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A27D0A61F3AE414002FAC2E /* LXDFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A27D0A91F3AE414002FAC2E /* LXDFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A27D0A71F3AE414002FAC2E /* LXDFunction.m */; };
 		0E41A9E40F4690E96269719B7D414428 /* Pods-LXDMacros_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A1D4B4C3F2C1E3E887C4394AA8FD32 /* Pods-LXDMacros_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8782B882D59B72CE39BC5E2CA9072D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9F924176DCDB88ACD8AC63E0916CFE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -32,8 +34,10 @@
 
 /* Begin PBXFileReference section */
 		02DA69B3A16AF498618CDA0945AEB11D /* LXDMacros.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDMacros.xcconfig; sourceTree = "<group>"; };
-		0A27D09A1F3AA9DD002FAC2E /* LXDMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXDMacros.h; sourceTree = "<group>"; };
-		0A27D09B1F3AAA4C002FAC2E /* LXDFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXDFunction.h; sourceTree = "<group>"; };
+		0A27D0A21F3AE3DF002FAC2E /* LXDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDMacros.h; sourceTree = "<group>"; };
+		0A27D0A31F3AE3DF002FAC2E /* LXDMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDMacros.m; sourceTree = "<group>"; };
+		0A27D0A61F3AE414002FAC2E /* LXDFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDFunction.h; sourceTree = "<group>"; };
+		0A27D0A71F3AE414002FAC2E /* LXDFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDFunction.m; sourceTree = "<group>"; };
 		0B7CDE12037B254EBAC77426EC55D664 /* Pods-LXDMacros_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LXDMacros_Example.modulemap"; sourceTree = "<group>"; };
 		120280A7BFDCF8321491B45242C0BBB9 /* LXDMacros.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LXDMacros.modulemap; sourceTree = "<group>"; };
 		1C88E7DAAE802889CF8F34DC909561FE /* LXDMacros-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDMacros-prefix.pch"; sourceTree = "<group>"; };
@@ -107,7 +111,8 @@
 		0A27D0981F3AA9DD002FAC2E /* function */ = {
 			isa = PBXGroup;
 			children = (
-				0A27D09B1F3AAA4C002FAC2E /* LXDFunction.h */,
+				0A27D0A61F3AE414002FAC2E /* LXDFunction.h */,
+				0A27D0A71F3AE414002FAC2E /* LXDFunction.m */,
 			);
 			path = function;
 			sourceTree = "<group>";
@@ -115,7 +120,8 @@
 		0A27D0991F3AA9DD002FAC2E /* macros */ = {
 			isa = PBXGroup;
 			children = (
-				0A27D09A1F3AA9DD002FAC2E /* LXDMacros.h */,
+				0A27D0A21F3AE3DF002FAC2E /* LXDMacros.h */,
+				0A27D0A31F3AE3DF002FAC2E /* LXDMacros.m */,
 			);
 			path = macros;
 			sourceTree = "<group>";
@@ -257,9 +263,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A27D0A81F3AE414002FAC2E /* LXDFunction.h in Headers */,
 				E0B2D95D35A4B90B9DFD9438DF235DE5 /* LXDMacros-umbrella.h in Headers */,
-				0A27D0A01F3AD86F002FAC2E /* LXDFunction.h in Headers */,
-				0A27D0A11F3AD86F002FAC2E /* LXDMacros.h in Headers */,
+				0A27D0A41F3AE3DF002FAC2E /* LXDMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +366,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02679477C95FE80A49CC3CC489C9211 /* LXDMacros-dummy.m in Sources */,
+				0A27D0A51F3AE3DF002FAC2E /* LXDMacros.m in Sources */,
+				0A27D0A91F3AE414002FAC2E /* LXDFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,12 @@
 //
-//  LXDMacros.h
+//  LXDMacross.h
 //  Pods
 //
 //  Created by didi on 2017/8/9.
 //
 //
 
-#ifndef LXDMacros_h
-#define LXDMacros_h
+#import <Foundation/Foundation.h>
 
 
 /// CPU预判指令
@@ -17,12 +16,12 @@
 
 /// 弱引用
 #ifndef weakify
-    #define weakify(objc) __weak typeof(objc) weak##objc = objc
+#define weakify(objc) __weak typeof(objc) weak##objc = objc
 #endif
 
 /// 内联
 #ifndef func_inline
-    #define func_inline static inline
+#define func_inline static inline
 #endif
 
 /// 函数重载
@@ -34,6 +33,3 @@
 #ifndef signal_weak
 #define signal_weak __attribute__((weak))
 #endif
-
-
-#endif /* LXDMacros_h */
