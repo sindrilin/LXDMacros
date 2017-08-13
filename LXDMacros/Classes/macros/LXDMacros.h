@@ -33,3 +33,21 @@
 #ifndef signal_weak
 #define signal_weak __attribute__((weak))
 #endif
+
+/// 全局构造
+#ifndef app_constructor 
+#define app_constructor __attribute__((constructor))
+#endif
+
+#ifndef app_constructor_priority
+#define app_constructor_priority(priority) __attribute__((constructor(priority)))
+#endif
+
+/// 全局析构
+#ifndef app_deconstructor
+#define app_deconstructor __attribute__((destructor))
+#endif
+
+#ifndef app_deconstructor_priority
+#define app_deconstructor_priority(priority) __attribute__((destructor(priority)))
+#endif
