@@ -57,3 +57,7 @@
 #define unuse_ret_val __attribute__ ((warn_unused_result))
 #endif
 
+/// 简化系统宏
+#define nonull_begin _Pragma("clang assume_nonnull begin")
+#define nonnull_end _Pragma("clang assume_nonnull end")
+
