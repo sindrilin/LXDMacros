@@ -51,3 +51,9 @@
 #ifndef app_deconstructor_priority
 #define app_deconstructor_priority(priority) __attribute__((destructor(priority)))
 #endif
+
+/// 返回值警告
+#ifndef unuse_ret_val
+#define unuse_ret_val __attribute__ ((warn_unused_result))
+#endif
+
