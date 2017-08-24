@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LXDMacros"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "Some common macros and function"
 
   # This description is used to generate tags and improve search results.
