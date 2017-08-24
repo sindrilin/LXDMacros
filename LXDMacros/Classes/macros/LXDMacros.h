@@ -16,7 +16,7 @@
 
 /// 弱引用
 #ifndef weakify
-#define weakify(objc) try {} catch {} __weak typeof(objc) objc##_weak_ = objc
+#define weakify(objc) autoreleasepool {} __weak typeof(objc) objc##_weak_ = objc
 #endif
 
 /// 内联
