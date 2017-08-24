@@ -61,3 +61,11 @@
 #define nonull_begin _Pragma("clang assume_nonnull begin")
 #define nonnull_end _Pragma("clang assume_nonnull end")
 
+/// 锁操作
+#ifndef lock_sempahore
+#define lock_semaphore(semaphore, block)    \
+    dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);  \
+    block();    \
+    dispatch_semaphore_signal(semaphore);
+#endif
+
