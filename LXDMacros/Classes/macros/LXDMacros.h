@@ -15,11 +15,8 @@
 
 
 /// 弱引用
-#if __has_include(<ReactiveCocoa/ReactiveCocoa.h>)
-#else
 #ifndef weakify
-#define weakify(objc) __weak typeof(objc) weak##objc = objc
-#endif
+#define weakify(objc) try {} catch {} __weak typeof(objc) objc##_weak_ = objc
 #endif
 
 /// 内联
