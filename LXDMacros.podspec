@@ -2,7 +2,7 @@
 #  Be sure to run `pod spec lint LXDMacros.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
+#  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LXDMacros"
-  s.version      = "0.1.7"
+  s.version      = "1.0.1"
   s.summary      = "Some common macros and function"
 
   # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long descriptiong of the pod here.
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
+  #  Licensing your code is important. See https://choosealicense.com for more info.
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
@@ -55,7 +55,7 @@ TODO: Add long descriptiong of the pod here.
   s.author             = { "linxinda" => "codersindri@gmail.com" }
   # Or just: s.author    = "linxinda"
   # s.authors            = { "linxinda" => "linxinda@didichuxing.com" }
-  # s.social_media_url   = "http://twitter.com/linxinda"
+  # s.social_media_url   = "https://twitter.com/linxinda"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
