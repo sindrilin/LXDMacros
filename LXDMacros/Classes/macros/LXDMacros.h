@@ -15,9 +15,9 @@
 
 
 /// 弱引用
-#ifndef weakify
-#define weakify(objc) autoreleasepool {} __weak typeof(objc) objc##_weak_ = objc
-#endif
+//#ifndef weakify
+//#define weakify(objc) autoreleasepool {} __weak typeof(objc) objc##_weak_ = objc
+//#endif
 
 /// 内联
 #ifndef func_inline
